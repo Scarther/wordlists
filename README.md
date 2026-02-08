@@ -1,6 +1,6 @@
 
 # For Updated Lists Use
-[Weak Pass](https://weakpass.com/)
+## [Weak Pass](https://weakpass.com/)
 
 
 # To use combine_wordlists.py
