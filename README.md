@@ -24,3 +24,16 @@ You can also use it by naming the files that you want to combine by separating w
 ```
 ./wordlists.py wordlist1.txt, wordlists2.txt, wordlist3.txt -o masterlists.txt
 ```
+
+# Alternative Word List Compiling
+
+## Using Sort
+
+```
+sort -T /path/to/temporary/folder/for/sorting -S 2G -u -o <combined-file-name>.txt *.txt
+```
+-T = creates temporary folder for sorting
+-S 2G = limits RAM to only 2gbs
+-u = unified/de-duplicate
+-o = final product name
+*.txt = wildcard for all .txt files in folder
